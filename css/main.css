@@ -104,3 +104,32 @@ header{
 #readMore:hover{
     background-color: rgba(255, 69, 0, 0.4);
 }
+
+/* items wrapper */
+.items-wrapper{
+    width: 100%;
+    min-height: 200px;
+    /* background-color: whitesmoke; */
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.item-image{
+    width: 160px;
+    height: 200px;
+    background-color: #333;
+    border-radius: 5px;
+}
+.item-text{
+    /* border: 1px solid red; */
+}
+.item-text h1,
+.item-text p{
+    margin: 0;
+}
+.item-text h1{
+    font-size: 18px;
+}
+.item-text p{
+    font-size: 12.5px;
+}
