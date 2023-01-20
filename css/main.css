@@ -1,7 +1,7 @@
 body{
     background-color: ;
-    width: 100%;
-    /* overflow-x: hidden; */
+    /* width: 100%; */
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     font-family: Calibri,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif
@@ -10,13 +10,13 @@ body{
 header{
     background-color: #f4f6fc;
 }
-
 .main-nav,
 .main-wrapper{
     padding: 0.5rem 1rem;
-    width: 1400px;
-    max-width: 100%;
+    max-width: 1400px;
+    /* width: 100%; */
     margin: auto;
+    border: 1px solid red;
 }
 .main-nav{
     display: flex;
@@ -57,12 +57,13 @@ header{
 }
 
 .main-section{
-    padding: 3rem;
+    /* padding: 3rem; */
     width: 70%;
+    border: 1px solid green;
 }
 
 .right-section{
-    /* border: 1px solid green; */
+    border: 1px solid black;
     /* padding: 3rem; */
     width: 30%;
 }
