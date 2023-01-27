@@ -155,6 +155,38 @@ header{
 }
 
 
+/* book preview section */
+.preview-card{
+    display: flex;
+    gap: 1.3rem;
+    background-color: whitesmoke;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
+.preview-card-image{
+    width: 30%;
+    /* border-radius: 5px; */
+    /*background-color: red;*/
+}
+.preview-card-image img{
+    width: 100%;
+    border-radius: 5px;
+}
+.preview-card-info{
+    /* border: 3px solid black; */
+    width: 70%;
+}
+.preview-card-info h2{
+    margin: 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+.preview-card-info p{
+    margin: 0;
+    margin-bottom: 0.3rem;
+}
+
+
 
 
 /* MEDIA QUERIES */
