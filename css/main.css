@@ -222,14 +222,13 @@ header{
 
     /* right section */
     .right-section{
-        /* border: 2px solid red; */
         width: 100%;
-        padding: 0;
+        padding: 1rem;
         margin: 2rem 0;
-        background-color: rgb(158, 154, 154);
-        margin-bottom: 20rem;
+        background-color: whitesmoke;
+        box-sizing: border-box;
     }
     .preview-summary{
-        /* padding: 0 1.1rem; */
+        padding: 0 1.1rem;
     }
 }
