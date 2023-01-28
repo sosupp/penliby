@@ -20,6 +20,7 @@ header{
 .main-wrapper{
     min-height: 600px;
     display: flex;
+    gap: 3rem;
     justify-content: space-between;
 }
 .main-nav{
@@ -149,7 +150,7 @@ header{
 
 /* Right section */
 .right-section{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 0.5rem 1rem;
     width: 30%;
 }
@@ -184,9 +185,20 @@ header{
 .preview-card-info p{
     margin: 0;
     margin-bottom: 0.3rem;
+    font-size: 13px;
 }
-
-
+.preview-cta a{
+    text-decoration: none;
+    background-color: rgba(50, 205, 50, 0.3);
+    border-radius: 15px;
+    padding: 0.15rem 0.8rem;
+    color: limegreen;
+    font-weight: 500;
+    border: 1px solid limegreen;
+}
+.preview-cta{
+    margin: 1rem 0;
+}
 
 
 /* MEDIA QUERIES */
@@ -206,5 +218,18 @@ header{
     .item-card{
         /* width: 50%; */
         /* flex-basis: 50%; */
+    }
+
+    /* right section */
+    .right-section{
+        /* border: 2px solid red; */
+        width: 100%;
+        padding: 0;
+        margin: 2rem 0;
+        background-color: rgb(158, 154, 154);
+        margin-bottom: 20rem;
+    }
+    .preview-summary{
+        /* padding: 0 1.1rem; */
     }
 }
